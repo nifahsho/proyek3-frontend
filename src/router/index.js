@@ -71,6 +71,16 @@ const routes = [
         path: "/monitoring/dosen/monitoring-tugas/matkul",
         name: "MonitoringDosenDaftarTugas",
         component: () => import(/* webpackChunkName: "absensimahasiswadosenview" */ "../views/monitoring/pages/dosen/MonitoringDosenMatkul")
+      },
+      {
+        path: "/monitoring/dosen/monitoring-tugas/tabel",
+        name: "MonitoringDosenDaftarTugas",
+        component: () => import(/* webpackChunkName: "absensimahasiswadosenview" */ "../views/monitoring/pages/dosen/MonitoringDosenTableTugas")
+      },
+      {
+        path: "/monitoring/dosen/monitoring-tugas/tabel-detail",
+        name: "MonitoringDosenDaftarTugas",
+        component: () => import(/* webpackChunkName: "absensimahasiswadosenview" */ "../views/monitoring/pages/dosen/MonitoringDosenDetailTabel")
       }
     ]
   },
